@@ -1,0 +1,1428 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile C:/questasim64_10.7c/examples/work/FINAL.mpf
+# Loading project FINAL
+# Compile of Design.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Design.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Design.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Design.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+do Ecov.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:52:57 on Dec 16,2022
+# vlog -reportprogress 300 Design.v TB.v "+cover" -covercells 
+# -- Compiling module Design
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 18:52:57 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.TB -coverage 
+# Start time: 18:52:57 on Dec 16,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Design(fast)".
+# Loading work.TB(fast)
+# Loading work.Design(fast)
+# ** Error: Assertion failed
+#    Time: 15 ns Started: 5 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 25 ns Started: 15 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 35 ns Started: 25 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 55 ns Started: 45 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 65 ns Started: 55 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 75 ns Started: 65 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 85 ns Started: 75 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 95 ns Started: 85 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 105 ns Started: 95 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 115 ns Started: 105 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 125 ns Started: 115 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 135 ns Started: 125 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 145 ns Started: 135 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 155 ns Started: 145 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 165 ns Started: 155 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 175 ns Started: 165 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 185 ns Started: 175 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 195 ns Started: 185 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 205 ns Started: 195 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 215 ns Started: 205 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 225 ns Started: 215 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 235 ns Started: 225 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 245 ns Started: 235 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 255 ns Started: 245 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 265 ns Started: 255 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 275 ns Started: 265 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 285 ns Started: 275 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 295 ns Started: 285 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 305 ns Started: 295 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 405 ns Started: 395 ns  Scope: /TB/DUT/assert__0 File: Design.v Line: 345
+# ** Error: Assertion failed
+#    Time: 415 ns Started: 405 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 425 ns Started: 415 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 435 ns Started: 425 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 445 ns Started: 435 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 455 ns Started: 445 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 465 ns Started: 455 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 475 ns Started: 465 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 485 ns Started: 475 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 495 ns Started: 485 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 505 ns Started: 495 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 515 ns Started: 505 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 525 ns Started: 515 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 535 ns Started: 525 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 545 ns Started: 535 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 555 ns Started: 545 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 565 ns Started: 555 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 575 ns Started: 565 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 585 ns Started: 575 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Error: Assertion failed
+#    Time: 595 ns Started: 585 ns  Scope: /TB/DUT/assert__1 File: Design.v Line: 346
+# ** Note: $finish    : TB.v(179)
+#    Time: 600 ns  Iteration: 0  Instance: /TB
+# 1
+# Break in Module TB at TB.v line 179
+vcover report TB.ucdb -details -all 
+# QuestaSim-64 vcover 10.7c Coverage Utility 2018.08 Aug 18 2018
+# Start time: 18:54:00 on Dec 16,2022
+# vcover report TB.ucdb -details -all 
+# Coverage Report by file with details
+# 
+# =================================================================================
+# === File: Design.v
+# =================================================================================
+# Statement Coverage:
+#     Enabled Coverage            Active      Hits    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     Stmts                           71        64         7     90.14
+# 
+# ================================Statement Details================================
+# 
+# Statement Coverage for file Design.v --
+# NOTE: The modification timestamp for source file 'Design.v' has been altered since compilation.
+# 
+#     1                                                
+#     2                                                
+#     3                                                
+#     4                                                
+#     5                                                module Design (
+#     6                                                input ic ,
+#     7                                                input cv,
+#     8                                                input cl,
+#     9                                                input ep,
+#     10                                               input [1:0] co,
+#     11                                               input mc,
+#     12                                               input mi,
+#     13                                               input CNL,
+#     14                                               input ai,
+#     15                                               input vb,
+#     16                                               
+#     17                                               input clk,
+#     18                                               input Mm,
+#     19                                               input[3:0] InPass,
+#     20                                               output reg [4:0] action
+#     21                                               
+#     22                                               
+#     23                                               );
+#     24                                               
+#     25                                                
+#     26                                               
+#     27                                               reg vp;
+#     28                                               reg [4:0] CurrentState; 
+#     29                                               reg [4:0] nextState ;
+#     30              1                          1     reg [3:0] Password= 4'b1111;
+#     31                                               
+#     32                                                
+#     33                                               parameter IDLE= 5'b00000;
+#     34                                               
+#     35                                                
+#     36                                               
+#     37              1                     376221     always @(posedge clk or posedge CNL) 
+#     38                                               begin
+#     39                                                   if(CNL)
+#     40                                                   begin
+#     41              1                     111012             CurrentState<=IDLE;
+#     42                                                   end
+#     43                                                   else
+#     44                                                   begin
+#     45              1                     265209             CurrentState<=nextState;
+#     46                                                   end
+#     47                                               end
+#     48                                               
+#     49                                                
+#     50                                               
+#     51                                               
+#     52                                               parameter S1  = 5'b00001;
+#     53                                               parameter S2  = 5'b00010;
+#     54                                               parameter S3  = 5'b00011;
+#     55                                               parameter S4  = 5'b00100;
+#     56                                               parameter S5  = 5'b00101;
+#     57                                               parameter S6  = 5'b00110;
+#     58                                               parameter S7  = 5'b00111;
+#     59                                               parameter S8  = 5'b01000;
+#     60                                               parameter S9  = 5'b01001;
+#     61                                               parameter S10 = 5'b01010;
+#     62                                               
+#     63                                               parameter S12 = 5'b01100;
+#     64                                               parameter S13 = 5'b01101;
+#     65                                               
+#     66                                               
+#     67                                                
+#     68                                               
+#     69                                                
+#     70                                               
+#     71              1                     458824     always @ (*)
+#     72                                               begin
+#     73                                                   case (CurrentState)
+#     74                                                   IDLE : begin 
+#     75                                                         if(ic==0) begin
+#     76              1                     108734               nextState=IDLE;
+#     77                                               	
+#     78              1                     108734     			 action = 5'b00000;
+#     79                                               			 end
+#     80                                                         else 
+#     81                                               			 begin
+#     82              1                     158862               nextState=S1;
+#     83                                               
+#     84              1                     158862     			 action = 5'b00001;
+#     85                                               			 end
+#     86                                                         
+#     87                                                         end
+#     88                                               
+#     89                                                
+#     90                                               
+#     91                                                   S1  : begin
+#     92                                                        if(cv==0)
+#     93                                               			begin
+#     94              1                      73678              nextState=IDLE;
+#     95                                               
+#     96              1                      73678     			action = 5'b00000;
+#     97                                               			end
+#     98                                                        else 
+#     99                                               			begin
+#     100             1                      22908              nextState=S2;
+#     101             1                      22908     			action = 5'b00010;
+#     102                                              			end
+#     103                                                     
+#     104                                                       end
+#     105                                              
+#     106                                               
+#     107                                              
+#     108                                                  S2  : begin
+#     109                                                       if(cl==0)
+#     110                                              			begin
+#     111             1                      16474              nextState=S2;
+#     112                                              
+#     113             1                      16474     			action = 5'b00010;
+#     114                                              			end
+#     115                                                       else 
+#     116                                              			begin
+#     117             1                      16375              nextState=S3;
+#     118                                              
+#     119             1                      16375     			action = 5'b00011;
+#     120                                              			end
+#     121                                                       
+#     122                                                       end 
+#     123                                                
+#     124                                                  S3  : begin
+#     125                                                       if(ep==0)
+#     126                                              			begin
+#     127             1                       9217              nextState=S3;
+#     128                                              
+#     129             1                       9217     			action = 5'b00011;
+#     130                                              			end
+#     131                                                       else
+#     132                                              			begin
+#     133             1                       9165              nextState=S4;
+#     134                                              
+#     135             1                       9165     			action = 5'b00100;
+#     136                                              			end
+#     137                                                      
+#     138                                                       end
+#     139                                              
+#     140                                               
+#     141                                              
+#     142                                                  S4  : begin
+#     143                                                       if(InPass==Password)
+#     144             1                       6073                 vp = 1;
+#     145                                                       else
+#     146             1                    ***0***                 vp = 0;
+#     147                                                       if(vp==0)
+#     148                                              			begin
+#     149             1                    ***0***              nextState=S3;
+#     150                                              
+#     151             1                    ***0***     			action = 5'b00011;
+#     152                                              			end
+#     153                                                       else 
+#     154                                              			begin
+#     155             1                       6073              nextState=S5;
+#     156                                              
+#     157             1                       6073     			action = 5'b00101;
+#     158                                              			end
+#     159                                                     
+#     160                                                       end
+#     161                                              
+#     162                                               
+#     163                                              
+#     164                                                  S5  : begin
+#     165                                                       if(co==2'b00)
+#     166                                              			begin
+#     167             1                       3927              nextState=S6;
+#     168                                              
+#     169             1                       3927     			action = 5'b00110;
+#     170                                              			end
+#     171                                                       else if (co==2'b01)
+#     172                                              			begin
+#     173             1                       2841              nextState=S7;
+#     174                                              
+#     175             1                       2841     			action = 5'b00111;
+#     176                                              			end
+#     177                                                       else if(co==2'b10)
+#     178                                              			begin
+#     179             1                       4128              nextState=S8;
+#     180                                              
+#     181             1                       4128     			action = 5'b01000;
+#     182                                              			end
+#     183                                                       else if(co==2'b11)
+#     184                                              			begin
+#     185             1                       4170              nextState=S9;
+#     186                                              
+#     187             1                       4170     			action = 5'b01001;
+#     188                                              			end
+#     189                                                       else 
+#     190                                              			begin
+#     191             1                    ***0***              nextState=IDLE;
+#     192                                              
+#     193             1                    ***0***     			action = 5'b00000;
+#     194                                              			end
+#     195                                                       end 
+#     196                                              
+#     197                                               
+#     198                                              
+#     199                                                  S6  : begin
+#     200                                                       if(Mm)
+#     201                                              			begin
+#     202             1                       3178              nextState=S5;
+#     203                                              
+#     204             1                       3178     			action = 5'b00101;
+#     205                                              			end
+#     206                                                       else if(mi==1 && mc==1)
+#     207                                              			begin
+#     208             1                        383              nextState=S10;
+#     209                                              
+#     210             1                        383     			action = 5'b01010;
+#     211                                              			end
+#     212                                                       else if (mi==0 || mc==0)
+#     213                                              			begin
+#     214             1                       1234              nextState=S6;
+#     215                                              
+#     216             1                       1234     			action = 5'b00110;
+#     217                                              			end
+#     218                                                       else 
+#     219                                              			begin
+#     220             1                    ***0***              nextState=S6;
+#     221                                              
+#     222             1                    ***0***     			action = 5'b00110;
+#     223                                              			end
+#     224                                                       
+#     225                                                       end 
+#     226                                              
+#     227                                               
+#     228                                              
+#     229                                                  S7 : begin
+#     230                                                       if(ai==0)
+#     231                                              			begin
+#     232             1                       1543              nextState=S7;
+#     233                                              
+#     234             1                       1543     			action = 5'b00111;
+#     235                                              			end
+#     236                                                       else 
+#     237                                              			begin
+#     238             1                       2338              nextState=S12;
+#     239                                              
+#     240             1                       2338     			action = 5'b01100;
+#     241                                              			end
+#     242                                                   
+#     243                                              end
+#     244                                               
+#     245                                              
+#     246                                                  S8 : begin
+#     247                                                       if(Mm==0)
+#     248                                              			begin
+#     249             1                       1642              nextState=S8;
+#     250                                              
+#     251             1                       1642     			action = 5'b01000;
+#     252                                              			end
+#     253                                                       else 
+#     254                                              			begin
+#     255             1                       3500              nextState=S5;
+#     256                                              
+#     257             1                       3500     			action = 5'b00101;
+#     258                                              			end
+#     259                                                     
+#     260                                                       end
+#     261                                              
+#     262                                               
+#     263                                              
+#     264                                                  S9 : begin
+#     265                                                      if(Mm==1)
+#     266                                              		  begin
+#     267             1                       3579              nextState=S5;
+#     268                                              
+#     269             1                       3579     			action = 5'b00101;
+#     270                                              			end
+#     271                                              
+#     272                                                       else
+#     273                                              		begin
+#     274             1                       1646              nextState=S9;
+#     275                                              
+#     276             1                       1646     			action = 5'b01001;
+#     277                                              			end
+#     278                                                     
+#     279                                                       end
+#     280                                              
+#     281                                               
+#     282                                              
+#     283                                                  S10 : begin
+#     284                                                       if(Mm==1)
+#     285                                              			begin
+#     286             1                        143              nextState=S5;
+#     287                                              
+#     288             1                        143     			action = 5'b00101;
+#     289                                              			end
+#     290                                                       else 
+#     291                                              			begin
+#     292             1                        366              nextState=S10;
+#     293                                              
+#     294             1                        366     			action = 5'b01010;
+#     295                                              			end
+#     296                                                      
+#     297                                                       end
+#     298                                              
+#     299                                               
+#     300                                               
+#     301                                              
+#     302                                                  S12 : begin
+#     303                                                       if(vb==1)
+#     304                                              			begin
+#     305             1                        732              nextState=S13;
+#     306             1                        732     			action = 5'b01101;
+#     307                                              			end
+#     308                                                       else 
+#     309                                              			begin
+#     310             1                       1114              nextState=S5;
+#     311                                              
+#     312             1                       1114     			action = 5'b00101;
+#     313                                              			end
+#     314                                                     
+#     315                                                       end
+#     316                                              
+#     317                                               
+#     318                                              
+#     319                                                  S13 : begin
+#     320                                              	 if(Mm==1)
+#     321                                              			begin
+#     322             1                        464              nextState=S5;
+#     323                                              
+#     324             1                        464     			action = 5'b00101;
+#     325                                              	end
+#     326                                              	else
+#     327                                              		begin
+#     328             1                        409              nextState=S13;
+#     329                                              
+#     330             1                        409     		action = 5'b01101;
+#     331                                              			end
+#     332                                              	end
+#     333                                              
+#     334                                               
+#     335                                              
+#     336                                                  
+#     337                                                      default: 
+#     338                                                       begin
+#     339             1                          1              nextState=IDLE;
+#     340                                              
+#     341             1                          1     			action = 5'b00000;
+#     342                                                       end
+#     343                                                  endcase
+#     344                                              end
+#     345                                              // psl assert always( (ic == 0 && CurrentState== IDLE)   -> next (action==5'b00000) ) @(posedge clk);
+#     346                                              // psl assert always( (S3&&ep&&!CNL)    -> next (action==5'b00100) ) @(posedge clk);
+#     347                                              
+#     348                                              
+#     349                                              endmodule
+# 
+# Branch Coverage:
+#     Enabled Coverage            Active      Hits    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     Branches                        49        45         4     91.83
+# 
+# ================================Branch Details================================
+# 
+# Branch Coverage for file Design.v --
+# NOTE: The modification timestamp for source file 'Design.v' has been altered since compilation.
+# 
+# ------------------------------------IF Branch------------------------------------
+#     39                                    376221     Count coming in to IF
+#     39              1                     111012         if(CNL)
+#     43              1                     265209         else
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------CASE Branch------------------------------------
+#     73                                    458824     Count coming in to CASE
+#     74              1                     267596         IDLE : begin 
+#     91              1                      96586         S1  : begin
+#     108             1                      32849         S2  : begin
+#     124             1                      18382         S3  : begin
+#     142             1                       6073         S4  : begin
+#     164             1                      15066         S5  : begin
+#     199             1                       4795         S6  : begin
+#     229             1                       3881         S7 : begin
+#     246             1                       5142         S8 : begin
+#     264             1                       5225         S9 : begin
+#     283             1                        509         S10 : begin
+#     302             1                       1846         S12 : begin
+#     319             1                        873         S13 : begin
+#     337             1                          1             default: 
+# Branch totals: 14 hits of 14 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     75                                    267596     Count coming in to IF
+#     75              1                     108734               if(ic==0) begin
+#     80              1                     158862               else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     92                                     96586     Count coming in to IF
+#     92              1                      73678              if(cv==0)
+#     98              1                      22908              else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     109                                    32849     Count coming in to IF
+#     109             1                      16474              if(cl==0)
+#     115             1                      16375              else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     125                                    18382     Count coming in to IF
+#     125             1                       9217              if(ep==0)
+#     131             1                       9165              else
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     143                                     6073     Count coming in to IF
+#     143             1                       6073              if(InPass==Password)
+#     145             1                    ***0***              else
+# Branch totals: 1 hit of 2 branches = 50.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     147                                     6073     Count coming in to IF
+#     147             1                    ***0***              if(vp==0)
+#     153             1                       6073              else 
+# Branch totals: 1 hit of 2 branches = 50.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     165                                    15066     Count coming in to IF
+#     165             1                       3927              if(co==2'b00)
+#     171             1                       2841              else if (co==2'b01)
+#     177             1                       4128              else if(co==2'b10)
+#     183             1                       4170              else if(co==2'b11)
+#     189             1                    ***0***              else 
+# Branch totals: 4 hits of 5 branches = 80.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     200                                     4795     Count coming in to IF
+#     200             1                       3178              if(Mm)
+#     206             1                        383              else if(mi==1 && mc==1)
+#     212             1                       1234              else if (mi==0 || mc==0)
+#     218             1                    ***0***              else 
+# Branch totals: 3 hits of 4 branches = 75.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     230                                     3881     Count coming in to IF
+#     230             1                       1543              if(ai==0)
+#     236             1                       2338              else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     247                                     5142     Count coming in to IF
+#     247             1                       1642              if(Mm==0)
+#     253             1                       3500              else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     265                                     5225     Count coming in to IF
+#     265             1                       3579             if(Mm==1)
+#     272             1                       1646              else
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     284                                      509     Count coming in to IF
+#     284             1                        143              if(Mm==1)
+#     290             1                        366              else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     303                                     1846     Count coming in to IF
+#     303             1                        732              if(vb==1)
+#     308             1                       1114              else 
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# ------------------------------------IF Branch------------------------------------
+#     320                                      873     Count coming in to IF
+#     320             1                        464     	 if(Mm==1)
+#     326             1                        409     	else
+# Branch totals: 2 hits of 2 branches = 100.00%
+# 
+# 
+# Condition Coverage:
+#     Enabled Coverage            Active   Covered    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     FEC Condition Terms             20        15         5     75.00
+# 
+# ================================Condition Details================================
+# 
+# Condition Coverage for file Design.v --
+# NOTE: The modification timestamp for source file 'Design.v' has been altered since compilation.
+# 
+# ----------------Focused Condition View-------------------
+# Line       75 Item    1  (ic == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (ic == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (ic == 0)_0           -                             
+#   Row   2:          1  (ic == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       92 Item    1  (cv == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (cv == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (cv == 0)_0           -                             
+#   Row   2:          1  (cv == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       109 Item    1  (cl == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (cl == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (cl == 0)_0           -                             
+#   Row   2:          1  (cl == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       125 Item    1  (ep == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (ep == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (ep == 0)_0           -                             
+#   Row   2:          1  (ep == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       143 Item    1  (InPass == Password)
+# Condition totals: 0 of 1 input term covered = 0.00%
+# 
+#             Input Term   Covered  Reason for no coverage   Hint
+#            -----------  --------  -----------------------  --------------
+#   (InPass == Password)         N  '_0' not hit             Hit '_0'
+# 
+#      Rows:       Hits  FEC Target              Non-masking condition(s)      
+#  ---------  ---------  --------------------    -------------------------     
+#   Row   1:    ***0***  (InPass == Password)_0  -                             
+#   Row   2:          1  (InPass == Password)_1  -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       147 Item    1  (vp == 0)
+# Condition totals: 0 of 1 input term covered = 0.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (vp == 0)         N  '_1' not hit             Hit '_1'
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (vp == 0)_0           -                             
+#   Row   2:    ***0***  (vp == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       165 Item    1  (co == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (co == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (co == 0)_0           -                             
+#   Row   2:          1  (co == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       171 Item    1  (co == 1)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (co == 1)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (co == 1)_0           -                             
+#   Row   2:          1  (co == 1)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       177 Item    1  (co == 2)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (co == 2)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (co == 2)_0           -                             
+#   Row   2:          1  (co == 2)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       183 Item    1  (co == 3)
+# Condition totals: 0 of 1 input term covered = 0.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (co == 3)         N  '_0' not hit             Hit '_0'
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:    ***0***  (co == 3)_0           -                             
+#   Row   2:          1  (co == 3)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       206 Item    1  ((mi == 1) && (mc == 1))
+# Condition totals: 2 of 2 input terms covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (mi == 1)         Y
+#    (mc == 1)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (mi == 1)_0           -                             
+#   Row   2:          1  (mi == 1)_1           (mc == 1)                     
+#   Row   3:          1  (mc == 1)_0           (mi == 1)                     
+#   Row   4:          1  (mc == 1)_1           (mi == 1)                     
+# 
+# ----------------Focused Condition View-------------------
+# Line       212 Item    1  ((mi == 0) || (mc == 0))
+# Condition totals: 0 of 2 input terms covered = 0.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (mi == 0)         N  '_0' not hit             Hit '_0'
+#    (mc == 0)         N  '_0' not hit             Hit '_0'
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:    ***0***  (mi == 0)_0           ~(mc == 0)                    
+#   Row   2:          1  (mi == 0)_1           -                             
+#   Row   3:    ***0***  (mc == 0)_0           ~(mi == 0)                    
+#   Row   4:          1  (mc == 0)_1           ~(mi == 0)                    
+# 
+# ----------------Focused Condition View-------------------
+# Line       230 Item    1  (ai == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (ai == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (ai == 0)_0           -                             
+#   Row   2:          1  (ai == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       247 Item    1  (Mm == 0)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (Mm == 0)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (Mm == 0)_0           -                             
+#   Row   2:          1  (Mm == 0)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       265 Item    1  (Mm == 1)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (Mm == 1)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (Mm == 1)_0           -                             
+#   Row   2:          1  (Mm == 1)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       284 Item    1  (Mm == 1)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (Mm == 1)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (Mm == 1)_0           -                             
+#   Row   2:          1  (Mm == 1)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       303 Item    1  (vb == 1)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (vb == 1)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (vb == 1)_0           -                             
+#   Row   2:          1  (vb == 1)_1           -                             
+# 
+# ----------------Focused Condition View-------------------
+# Line       320 Item    1  (Mm == 1)
+# Condition totals: 1 of 1 input term covered = 100.00%
+# 
+#   Input Term   Covered  Reason for no coverage   Hint
+#  -----------  --------  -----------------------  --------------
+#    (Mm == 1)         Y
+# 
+#      Rows:       Hits  FEC Target            Non-masking condition(s)      
+#  ---------  ---------  --------------------  -------------------------     
+#   Row   1:          1  (Mm == 1)_0           -                             
+#   Row   2:          1  (Mm == 1)_1           -                             
+# 
+# 
+# FSM Coverage:
+#     Enabled Coverage            Active      Hits    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     FSMs                                                       96.77
+#         States                      13        13         0    100.00
+#         Transitions                 31        29         2     93.54
+# 
+# ================================FSM Details================================
+# 
+# FSM Coverage for file Design.v --
+# 
+# FSM_ID: CurrentState
+#     Current State Object : CurrentState
+#     ----------------------
+#     State Value MapInfo :
+#     ---------------------
+# Line          State Name               Value
+# ----          ----------               -----
+#   74                IDLE                   0
+#   91                  S1                   1
+#  108                  S2                   2
+#  124                  S3                   3
+#  142                  S4                   4
+#  164                  S5                   5
+#  264                  S9                   9
+#  246                  S8                   8
+#  229                  S7                   7
+#  199                  S6                   6
+#  283                 S10                  10
+#  302                 S12                  12
+#  319                 S13                  13
+#     Covered States :
+#     ----------------
+#                    State           Hit_count
+#                    -----           ---------
+#                     IDLE              204328
+#                       S1               88036
+#                       S2               28945
+#                       S3               16430
+#                       S4                6073
+#                       S5               13765
+#                       S9                4344
+#                       S8                4282
+#                       S7                3324
+#                       S6                3975
+#                      S10                 451
+#                      S12                1476
+#                      S13                 792
+#     Covered Transitions :
+#     ---------------------
+# Line            Trans_ID           Hit_count          Transition          
+# ----            --------           ---------          ----------          
+#   82                   0               88036          IDLE -> S1          
+#  100                   1               19287          S1 -> S2            
+#   94                   2               68749          S1 -> IDLE          
+#  117                   3               10918          S2 -> S3            
+#   41                   4                8369          S2 -> IDLE          
+#  133                   5                6073          S3 -> S4            
+#   41                   6                4845          S3 -> IDLE          
+#  155                   7                6073          S4 -> S5            
+#  191                  10                 995          S5 -> IDLE          
+#  185                  11                3523          S5 -> S9            
+#  179                  12                3472          S5 -> S8            
+#  173                  13                2472          S5 -> S7            
+#  167                  14                3303          S5 -> S6            
+#  267                  15                2332          S9 -> S5            
+#   41                  16                1191          S9 -> IDLE          
+#  255                  17                2293          S8 -> S5            
+#   41                  18                1179          S8 -> IDLE          
+#  238                  19                1476          S7 -> S12           
+#   41                  20                 996          S7 -> IDLE          
+#  208                  21                 230          S6 -> S10           
+#  202                  22                2064          S6 -> S5            
+#   41                  23                1009          S6 -> IDLE          
+#  286                  24                  26          S10 -> S5           
+#   41                  25                 204          S10 -> IDLE         
+#  310                  26                 669          S12 -> S5           
+#  305                  27                 554          S12 -> S13          
+#   41                  28                 253          S12 -> IDLE         
+#  322                  29                 308          S13 -> S5           
+#   41                  30                 246          S13 -> IDLE         
+#     Uncovered Transitions :
+#     -----------------------
+# Line            Trans_ID          Transition          
+# ----            --------          ----------          
+#  149                   8          S4 -> S3            
+#   41                   9          S4 -> IDLE          
+# 
+# 
+#     Summary                     Active      Hits    Misses % Covered
+#     -------                     ------      ----    ------ ---------
+#         States                      13        13         0    100.00
+#         Transitions                 31        29         2     93.54
+# Toggle Coverage:
+#     Enabled Coverage            Active      Hits    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     Toggle Bins                     66        56        10     84.84
+# 
+# ================================Toggle Details================================
+# 
+# Toggle Coverage for File Design.v --
+# 
+#        Line                                   Node      1H->0L      0L->1H  "Coverage"
+# --------------------------------------------------------------------------------------
+#           6                                     ic           1           1      100.00 
+#           7                                     cv           1           1      100.00 
+#           8                                     cl           1           1      100.00 
+#           9                                     ep           1           1      100.00 
+#          10                                  co[1]           1           1      100.00 
+#          10                                  co[0]           1           1      100.00 
+#          11                                     mc           1           1      100.00 
+#          12                                     mi           1           1      100.00 
+#          13                                    CNL           1           1      100.00 
+#          14                                     ai           1           1      100.00 
+#          15                                     vb           1           1      100.00 
+#          17                                    clk           1           1      100.00 
+#          18                                     Mm           1           1      100.00 
+#          19                              InPass[3]           1           1      100.00 
+#          19                              InPass[2]           0           0        0.00 
+#          19                              InPass[1]           1           1      100.00 
+#          19                              InPass[0]           1           1      100.00 
+#          20                              action[4]           0           0        0.00 
+#          20                              action[3]           1           1      100.00 
+#          20                              action[2]           1           1      100.00 
+#          20                              action[1]           1           1      100.00 
+#          20                              action[0]           1           1      100.00 
+#          27                                     vp           0           0        0.00 
+#          28                        CurrentState[4]           0           0        0.00 
+#          28                        CurrentState[3]           1           1      100.00 
+#          28                        CurrentState[2]           1           1      100.00 
+#          28                        CurrentState[1]           1           1      100.00 
+#          28                        CurrentState[0]           1           1      100.00 
+#          29                           nextState[4]           0           0        0.00 
+#          29                           nextState[3]           1           1      100.00 
+#          29                           nextState[2]           1           1      100.00 
+#          29                           nextState[1]           1           1      100.00 
+#          29                           nextState[0]           1           1      100.00 
+# 
+# Total Node Count     =         33 
+# Toggled Node Count   =         28 
+# Untoggled Node Count =          5 
+# 
+# Toggle Coverage      =      84.84% (56 of 66 bins)
+# 
+# =================================================================================
+# === File: TB.v
+# =================================================================================
+# Statement Coverage:
+#     Enabled Coverage            Active      Hits    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     Stmts                          138       136         2     98.55
+# 
+# ================================Statement Details================================
+# 
+# Statement Coverage for file TB.v --
+# NOTE: The modification timestamp for source file 'TB.v' has been altered since compilation.
+# 
+#     1                                                module TB();
+#     2                                                
+#     3                                                	// Inputs
+#     4                                                	reg ic;
+#     5                                                	reg cv;
+#     6                                                	reg cl;
+#     7                                                	reg ep;
+#     8                                                	reg [1:0] co;
+#     9                                                	reg mc;
+#     10                                               	reg mi;
+#     11                                               	reg CNL;
+#     12                                               	reg ai;
+#     13                                               	reg vb;
+#     14                                               	
+#     15                                               	reg clk;
+#     16                                               	reg Mm;
+#     17                                               	reg [3:0] InPass;
+#     18                                               
+#     19                                               	// Outputs
+#     20                                               	wire [4:0] action;
+#     21                                               
+#     22                                               
+#     23                                               	// Instantiate the Unit Under Test (UUT)
+#     24                                               	Design DUT (
+#     25                                               		.ic(ic), 
+#     26                                               		.cv(cv), 
+#     27                                               		.cl(cl), 
+#     28                                               		.ep(ep), 
+#     29                                               		.co(co), 
+#     30                                               		.mc(mc), 
+#     31                                               		.mi(mi), 
+#     32                                               		.CNL(CNL), 
+#     33                                               		.ai(ai), 
+#     34                                               		.vb(vb), 
+#     35                                               		
+#     36                                               		.clk(clk), 
+#     37                                               		.Mm(Mm), 
+#     38                                               		.InPass(InPass), 
+#     39                                               		.action(action)
+#     40                                               
+#     41                                               	);
+#     42                                               	integer I;
+#     43                                               	
+#     44              1                          1     integer seed = 1;
+#     45              1                          1     integer seed1 = 0;
+#     46              1                          1     integer seed2 = 7;
+#     47                                               
+#     48                                               
+#     49              1                          1     always @(posedge clk)
+#     50                                               	begin
+#     51              1                          1     	for (I=0; I<100000; I=I+1)
+#     51              2                      36332     
+#     52                                               	begin
+#     53              1                      36333     #100;
+#     54              1                      36333     		co=$random(seed);
+#     55              1                      36333     		ic=$random(seed);
+#     56              1                      36333     		cv=$random(seed);
+#     57              1                      36333     		InPass=4'b1111;
+#     58                                               		
+#     59              1                      36333     		ai=$random(seed);
+#     60              1                      36333     		vb=$random(seed);
+#     61                                               		
+#     62              1                      36333     		Mm=$random(seed);
+#     63              1                      36333     		mc=$random(seed);
+#     64              1                      36333     		CNL=0;
+#     65              1                      36333     		#100;
+#     66              1                      36333     		cl=$random(seed);
+#     67              1                      36333     		ep=$random(seed);
+#     68              1                      36333     		mi=$random(seed);
+#     69                                               
+#     70              1                      36333                     co=$random(seed1);
+#     71              1                      36333     		ic=$random(seed1);
+#     72              1                      36333     		cv=$random(seed1);
+#     73              1                      36333     		InPass=4'b1111;
+#     74                                               		
+#     75              1                      36333     		ai=$random(seed1);
+#     76              1                      36333     		vb=$random(seed1);
+#     77                                               		
+#     78              1                      36333     		Mm=$random(seed1);
+#     79              1                      36333     		mc=$random(seed1);
+#     80              1                      36333     		CNL= 0;
+#     81                                               		
+#     82              1                      36333     		cl=$random(seed1);
+#     83              1                      36333     		ep=$random(seed1);
+#     84              1                      36333     		mi=$random(seed1);
+#     85                                               		
+#     86              1                      36333     #100;
+#     87              1                      36332                     co=$random(seed2);
+#     88              1                      36332     		ic=$random(seed2);
+#     89              1                      36332     		cv=$random(seed2);
+#     90              1                      36332     		InPass=4'b1111;
+#     91                                               		
+#     92              1                      36332     		ai=$random(seed2);
+#     93              1                      36332     		vb=$random(seed2);
+#     94                                               		
+#     95              1                      36332     		Mm=$random(seed2);
+#     96              1                      36332     		mc=$random(seed2);
+#     97              1                      36332     		CNL=1;
+#     98                                               		
+#     99              1                      36332     		cl=$random(seed2);
+#     100             1                      36332     		ep=$random(seed2);
+#     101             1                      36332     		mi=$random(seed2);
+#     102                                              	end
+#     103                                              end		
+#     104                                              
+#     105                                              initial 
+#     106                                              			begin 
+#     107             1                          1     				clk = 0;
+#     108             1                          1     		forever begin
+#     109             1                    2179966     			#5; 
+#     110             1                    2179965     			clk = ~clk;
+#     111                                              	
+#     112                                              	end
+#     113                                              	end	
+#     114                                              
+#     115                                              	
+#     116                                              
+#     117                                              
+#     118                                              	initial begin
+#     119                                              		// Initialize Inputs
+#     120                                              		//Money Deposit (S11)
+#     121             1                          1     		
+#     122             1                          1     		ic = 1;
+#     123             1                          1     		CNL = 0;
+#     124             1                          1     		cv = 1;
+#     125             1                          1     		cl = 1;
+#     126             1                          1     		InPass= 4'b1111;
+#     127             1                          1     		ep = 1;
+#     128             1                          1     		co = 00;
+#     129             1                          1     		mi = 1;
+#     130             1                          1     		mc = 1;
+#     131                                              		#100
+#     132                                              		
+#     133             1                          1     		//Money Withdraw (S16)
+#     134             1                          1     		ic = 1;
+#     135             1                          1     		cv = 1;
+#     136             1                          1     		cl = 1;
+#     137             1                          1     		InPass= 4'b1111;
+#     138             1                          1     		ep = 1;
+#     139             1                          1     		co = 01;
+#     140             1                          1     		ai = 1;
+#     141             1                          1     		vb = 1;
+#     142                                              			#100
+#     143             1                          1     		//Balance Services(S8)
+#     144             1                          1     		ic = 1;
+#     145             1                          1     		cv = 1;
+#     146             1                          1     		cl = 1;
+#     147             1                          1     		InPass= 4'b1111;
+#     148             1                          1     		ep = 1;
+#     149             1                          1     		co = 10;
+#     150                                              			#100
+#     151             1                          1     		//Other Services (S15)
+#     152             1                          1     		ic = 1;
+#     153             1                          1     		cv = 1;
+#     154             1                          1     		cl = 1;
+#     155             1                          1     		InPass= 4'b1111;
+#     156             1                          1     		ep = 1;
+#     157                                              		co = 11;
+#     158             1                          1     		
+#     159                                              			#100
+#     160             1                          1     		//Other Services (S14)
+#     161             1                          1     		ic = 1;
+#     162             1                          1     		cv = 1;
+#     163             1                          1     		cl = 1;
+#     164             1                          1     		InPass= 4'b1111;
+#     165             1                          1     		ep = 1;
+#     166                                              		co = 11;
+#     167             1                          1     		
+#     168                                              			#100
+#     169             1                          1     		//Wrong password
+#     170             1                          1     		ic = 1;
+#     171             1                          1     		cv = 1;
+#     172             1                          1     		cl = 1;
+#     173             1                          1     		InPass= 4'b1100;
+#     174             1                          1     		ep = 1;
+#     175                                              		#100
+#     176                                              
+#     177             1                          1     	
+#     177             2                      36330     
+#     178                                              
+#     179             1                      36331     $finish;
+#     180             1                      36331     
+#     181             1                      36331     		// Wait 100 ns for global reset to finish
+#     182             1                      36331     		#100;
+#     183             1                      36331             
+#     184                                              		// Add stimulus here
+#     185             1                      36331     
+#     186             1                      36331     
+#     187                                              	end
+#     188             1                      36331     
+#     189             1                      36331          
+#     190             1                      36331     endmodule
+#     191             1                      36331     
+#     192             1                      36331     
+#     193             1                      36331     
+#     194             1                      36331     
+# 
+# Toggle Coverage:
+#     Enabled Coverage            Active      Hits    Misses % Covered
+#     ----------------            ------      ----    ------ ---------
+#     Toggle Bins                    300       263        37     87.66
+# 
+# ================================Toggle Details================================
+# 
+# Toggle Coverage for File TB.v --
+# 
+#        Line                                   Node      1H->0L      0L->1H  "Coverage"
+# --------------------------------------------------------------------------------------
+#           4                                     ic           1           1      100.00 
+#           5                                     cv           1           1      100.00 
+#           6                                     cl           1           1      100.00 
+#           7                                     ep           1           1      100.00 
+#           8                                  co[1]           1           1      100.00 
+#           8                                  co[0]           1           1      100.00 
+#           9                                     mc           1           1      100.00 
+#          10                                     mi           1           1      100.00 
+#          11                                    CNL           1           1      100.00 
+#          12                                     ai           1           1      100.00 
+#          13                                     vb           1           1      100.00 
+#          15                                    clk           1           1      100.00 
+#          16                                     Mm           1           1      100.00 
+#          17                              InPass[3]           1           1      100.00 
+#          17                              InPass[2]           0           0        0.00 
+#          17                              InPass[1]           1           1      100.00 
+#          17                              InPass[0]           1           1      100.00 
+#          20                              action[4]           0           0        0.00 
+#          20                              action[3]           1           1      100.00 
+#          20                              action[2]           1           1      100.00 
+#          20                              action[1]           1           1      100.00 
+#          20                              action[0]           1           1      100.00 
+#          42                                   I[9]           1           1      100.00 
+#          42                                   I[8]           1           1      100.00 
+#          42                                   I[7]           1           1      100.00 
+#          42                                   I[6]           1           1      100.00 
+#          42                                   I[5]           1           1      100.00 
+#          42                                   I[4]           1           1      100.00 
+#          42                                   I[3]           1           1      100.00 
+#          42                                  I[31]           0           0        0.00 
+#          42                                  I[30]           0           0        0.00 
+#          42                                   I[2]           1           1      100.00 
+#          42                                  I[29]           0           0        0.00 
+#          42                                  I[28]           0           0        0.00 
+#          42                                  I[27]           0           0        0.00 
+#          42                                  I[26]           0           0        0.00 
+#          42                                  I[25]           0           0        0.00 
+#          42                                  I[24]           0           0        0.00 
+#          42                                  I[23]           0           0        0.00 
+#          42                                  I[22]           0           0        0.00 
+#          42                                  I[21]           0           0        0.00 
+#          42                                  I[20]           0           0        0.00 
+#          42                                   I[1]           1           1      100.00 
+#          42                                  I[19]           0           0        0.00 
+#          42                                  I[18]           0           0        0.00 
+#          42                                  I[17]           0           0        0.00 
+#          42                                  I[16]           0           1       50.00 
+#          42                                  I[15]           1           1      100.00 
+#          42                                  I[14]           1           1      100.00 
+#          42                                  I[13]           1           1      100.00 
+#          42                                  I[12]           1           1      100.00 
+#          42                                  I[11]           1           1      100.00 
+#          42                                  I[10]           1           1      100.00 
+#          42                                   I[0]           1           1      100.00 
+#          44                                seed[9]           1           1      100.00 
+#          44                                seed[8]           1           1      100.00 
+#          44                                seed[7]           1           1      100.00 
+#          44                                seed[6]           1           1      100.00 
+#          44                                seed[5]           1           1      100.00 
+#          44                                seed[4]           1           1      100.00 
+#          44                                seed[3]           1           1      100.00 
+#          44                               seed[31]           1           1      100.00 
+#          44                               seed[30]           1           1      100.00 
+#          44                                seed[2]           1           1      100.00 
+#          44                               seed[29]           1           1      100.00 
+#          44                               seed[28]           1           1      100.00 
+#          44                               seed[27]           1           1      100.00 
+#          44                               seed[26]           1           1      100.00 
+#          44                               seed[25]           1           1      100.00 
+#          44                               seed[24]           1           1      100.00 
+#          44                               seed[23]           1           1      100.00 
+#          44                               seed[22]           1           1      100.00 
+#          44                               seed[21]           1           1      100.00 
+#          44                               seed[20]           1           1      100.00 
+#          44                                seed[1]           1           1      100.00 
+#          44                               seed[19]           1           1      100.00 
+#          44                               seed[18]           1           1      100.00 
+#          44                               seed[17]           1           1      100.00 
+#          44                               seed[16]           1           1      100.00 
+#          44                               seed[15]           1           1      100.00 
+#          44                               seed[14]           1           1      100.00 
+#          44                               seed[13]           1           1      100.00 
+#          44                               seed[12]           1           1      100.00 
+#          44                               seed[11]           1           1      100.00 
+#          44                               seed[10]           1           1      100.00 
+#          44                                seed[0]           1           1      100.00 
+#          45                               seed1[9]           1           1      100.00 
+#          45                               seed1[8]           1           1      100.00 
+#          45                               seed1[7]           1           1      100.00 
+#          45                               seed1[6]           1           1      100.00 
+#          45                               seed1[5]           1           1      100.00 
+#          45                               seed1[4]           1           1      100.00 
+#          45                               seed1[3]           1           1      100.00 
+#          45                              seed1[31]           1           1      100.00 
+#          45                              seed1[30]           1           1      100.00 
+#          45                               seed1[2]           1           1      100.00 
+#          45                              seed1[29]           1           1      100.00 
+#          45                              seed1[28]           1           1      100.00 
+#          45                              seed1[27]           1           1      100.00 
+#          45                              seed1[26]           1           1      100.00 
+#          45                              seed1[25]           1           1      100.00 
+#          45                              seed1[24]           1           1      100.00 
+#          45                              seed1[23]           1           1      100.00 
+#          45                              seed1[22]           1           1      100.00 
+#          45                              seed1[21]           1           1      100.00 
+#          45                              seed1[20]           1           1      100.00 
+#          45                               seed1[1]           1           1      100.00 
+#          45                              seed1[19]           1           1      100.00 
+#          45                              seed1[18]           1           1      100.00 
+#          45                              seed1[17]           1           1      100.00 
+#          45                              seed1[16]           1           1      100.00 
+#          45                              seed1[15]           1           1      100.00 
+#          45                              seed1[14]           1           1      100.00 
+#          45                              seed1[13]           1           1      100.00 
+#          45                              seed1[12]           1           1      100.00 
+#          45                              seed1[11]           1           1      100.00 
+#          45                              seed1[10]           1           1      100.00 
+#          45                               seed1[0]           1           1      100.00 
+#          46                               seed2[9]           1           1      100.00 
+#          46                               seed2[8]           1           1      100.00 
+#          46                               seed2[7]           1           1      100.00 
+#          46                               seed2[6]           1           1      100.00 
+#          46                               seed2[5]           1           1      100.00 
+#          46                               seed2[4]           1           1      100.00 
+#          46                               seed2[3]           1           1      100.00 
+#          46                              seed2[31]           1           1      100.00 
+#          46                              seed2[30]           1           1      100.00 
+#          46                               seed2[2]           1           1      100.00 
+#          46                              seed2[29]           1           1      100.00 
+#          46                              seed2[28]           1           1      100.00 
+#          46                              seed2[27]           1           1      100.00 
+#          46                              seed2[26]           1           1      100.00 
+#          46                              seed2[25]           1           1      100.00 
+#          46                              seed2[24]           1           1      100.00 
+#          46                              seed2[23]           1           1      100.00 
+#          46                              seed2[22]           1           1      100.00 
+#          46                              seed2[21]           1           1      100.00 
+#          46                              seed2[20]           1           1      100.00 
+#          46                               seed2[1]           1           1      100.00 
+#          46                              seed2[19]           1           1      100.00 
+#          46                              seed2[18]           1           1      100.00 
+#          46                              seed2[17]           1           1      100.00 
+#          46                              seed2[16]           1           1      100.00 
+#          46                              seed2[15]           1           1      100.00 
+#          46                              seed2[14]           1           1      100.00 
+#          46                              seed2[13]           1           1      100.00 
+#          46                              seed2[12]           1           1      100.00 
+#          46                              seed2[11]           1           1      100.00 
+#          46                              seed2[10]           1           1      100.00 
+#          46                               seed2[0]           0           0        0.00 
+# 
+# Total Node Count     =        150 
+# Toggled Node Count   =        131 
+# Untoggled Node Count =         19 
+# 
+# Toggle Coverage      =      87.66% (263 of 300 bins)
+# 
+# 
+# ASSERTION RESULTS:
+# --------------------------------------------------------------------
+# Name                 File(Line)                   Failure      Pass 
+#                                                   Count        Count
+# --------------------------------------------------------------------
+# /TB/DUT/assert__1    Design.v(346)                 538949          1
+# /TB/DUT/assert__0    Design.v(345)                  82657          1
+# 
+# Total Coverage By File (code coverage only, filtered view): 89.29%
+# 
+# End time: 18:54:00 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
